@@ -14,19 +14,18 @@ This workshop is intended for wireless system architects and engineers, MAC and 
 * Model typical and custom network scenarios to evaluate overall performance.
 
 ## Setup
-This repo contains the files required to run the hands-on Wreless network modeling workshop in MATLAB®. The "Exercise" files require code additions to  
-run.  The "Solution Scripts" files have the required code additions and run to completion.
-
+This repo contains the files required to run the hands-on Wreless network modeling workshop in MATLAB®. 
+The "Exercise" files require code additions to run.  
 The files enable the following exercises:
-1. Exercise 1 - Operate the simulation engine, configure 5G nodes, create a simple network, and see statistics
-2. Exercise 2 - Operate the simulation engine, configure WLAN nodes, create a simple network, and see statistics
-
-To Run:
-1. To conduct the workshop, use the "Exercise" files
-2. To simply run the completed exercises, run the following files in MATLAB:
-
-* EXPL1\_NR\_Simplest\_Network.mlx
-* EXPL2\_WLAN\_Simplest\_Network.mlx
+1. Exercise 1
+* Understand how to create and configure gNB and UE nodes.
+* Set up a simple 5G network.
+* Simulate the network, capture performance statistics, and explore visualization tools.
+2. Exercise 2 
+* Configure and create WLAN nodes and networks
+* Simulate the WLAN network and capture statistics
+* Visualize the WLAN and Bluetooth data link layer state transitions
+* Analyze WLAN network performance under Bluetooth interference
 
 ## Required MathWorks Products (https://www.mathworks.com)
 Requires MATLAB release R2025a or newer
